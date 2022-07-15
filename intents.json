@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting. What can i do?",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "appointment",
+            "patterns": [
+                "Can I get the appointment?",
+                "What time I can get appointment"
+            ],
+            "responses": [
+                "You can meet the doctor at 7pm. Is it okay for you?\nYes/No",
+                "Doctor is available at 7pm tommorow. Is it okay for you?\nYes/No"
+            ]
+        },
+        {
+            "tag": "timing",
+            "patterns": [
+                "When is doctor available?",
+                "What time clinic is open",
+                "What are the timings of the clinic?"
+            ],
+            "responses": [
+                "Doctor is available 8am-8pm all days except Friday.",
+                "Clinic is open 8am-8pm all days except Friday."
+            ]
+        },
+        {
+            "tag": "appointment_status",
+            "patterns": [
+                "What is my appointment status?",
+                "Is my appointment going as per schedule",
+                "is my appointment confirmed?"
+            ],
+            "responses": [
+                "Yes, you have an appointment at 7pm and it is going as per schedule.",
+                "Yes, you have an appointment at 7pm and it is going as per schedule."
+            ]
+        },
+        {
+            "tag": "current_availability",
+            "patterns": [
+                "Is doctor available right now?",
+                "What is doctors current availabilty status",
+                "Can I meet the doctor right now. Is he available?"
+            ],
+            "responses": [
+                "Yes, he is available right now. Should I book a seat for you?",
+                "Yes, he is available. Should I book an appointment for you?"
+            ]
+        },
+        {
+            "tag": "reject",
+            "patterns": [
+                "No",
+                "Nope",
+                "Next time",
+                "Not now",
+                "Some other time"
+            ],
+            "responses": [
+                "Can I do something else for you?",
+                "What else I can do for you?"
+            ]
+        },
+        {
+            "tag": "accept",
+            "patterns": [
+                "Yes",
+                "Sure",
+                "Okk",
+                "Yup"
+            ],
+            "responses": [
+                "Blank"
+            ]
+        }
+    ]
+}
